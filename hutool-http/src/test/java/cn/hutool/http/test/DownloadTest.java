@@ -25,7 +25,7 @@ public class DownloadTest {
 	}
 
 	@Test
-	@Ignore
+	// @Ignore
 	public void downloadSizeTest() {
 		String url = "https://res.t-io.org/im/upload/img/67/8948/1119501/88097554/74541310922/85/231910/366466 - 副本.jpg";
 		HttpRequest.get(url).setSSLProtocol("TLSv1.2").executeAsync().writeBody("e:/pic/366466.jpg");
